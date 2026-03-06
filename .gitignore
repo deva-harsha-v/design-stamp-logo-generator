@@ -1,0 +1,29 @@
+# --- Python Specific ---
+# Ignore compiled python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environments ---
+# If you use a virtual environment, ignore it
+venv/
+env/
+.env
+
+# --- Distribution / Build ---
+# Ignore build folders if you ever turn this into an .exe
+dist/
+build/
+*.spec
+
+# --- Operating System Files ---
+# Ignore system-specific junk files
+.DS_Store
+Thumbs.db
+
+# --- Project Specific ---
+# Ignore any saved logos created during testing
+*.png
+# BUT do NOT ignore the required assets or screenshots
+!assets/*.png
+!screenshots/*.png
